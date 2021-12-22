@@ -50,9 +50,6 @@ h1 {
 
 /*Features*/
 
-#features {
-    padding: 10rem 0;
-}
 /*Feature Symbols*/
 .feature-icon {
     color: #ef8172;
@@ -63,13 +60,17 @@ h1 {
     color: #ff4c68;
 }
 
-/*feature text*/
-#features div h3 {
+/*feature box*/
+.feature-box {
+    padding: 8rem 0;
+}
+
+.feature-box h3 {
     font-size: 1.5rem;
     font-weight: 900;
 }
 
-#features div p {
+.feature-box p {
     margin: auto;
     color: #8f8f8f;
     width: 70%;
